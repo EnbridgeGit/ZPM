@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>Z06PMS_CP_DEFAULTS</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Default Notifcation Types and Order Types</DDTEXT>
+    <EXCLASS>1</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>Z06PMS_CP_UNITS</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Default - Units</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>UNIT</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>Z06PMS_CP_NOTIF</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Default - Notifcation Types</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>NOTIF</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>Z06PMS_CP_ORDER</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Default - Order Types</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>ORDER</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>Z06PMS_CP_SITE</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Default - Site</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>SITE</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>Z06PMS_CP_TPLNR</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Default - Functional Location and Work Center</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>OTHER</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>Z06PMS_CP_PLANNER</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Planner Group</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>PLANNER</GROUPNAME>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

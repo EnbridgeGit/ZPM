@@ -1,0 +1,7 @@
+"Name: \PR:RI_ORDER_OPERATION_LIST\FO:USER_COMMAND_F30\SE:END\EI
+ENHANCEMENT 0 ZPM_IMP_UPDATE_WRK_CENTER.
+*if sy-tcode = 'IW37N'.
+IF sy-tcode = 'IW37N' OR sy-tcode = 'ZCPMAIN' OR sy-tcode = 'ZACPPEM' OR sy-tcode = 'ZCPOPS' OR sy-tcode = 'ZCMCOR' OR sy-tcode = 'ZCPENGR' .
+ Include Z_PM_UPDATE_WRK_01.
+endif.
+ENDENHANCEMENT.

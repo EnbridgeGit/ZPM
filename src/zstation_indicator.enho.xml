@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>HOOK_IMPL</TOOL>
+   <SHORTTEXT>Enhancement to update the Station Capacitiy Indicator</SHORTTEXT>
+   <ORIGINAL_OBJECT>
+    <PGMID>R3TR</PGMID>
+    <ORG_OBJ_TYPE>CLAS</ORG_OBJ_TYPE>
+    <ORG_OBJ_NAME>/SMERP/CL_PM_EQUIPMENT_DO</ORG_OBJ_NAME>
+    <ORG_MAIN_TYPE>CLAS</ORG_MAIN_TYPE>
+    <ORG_MAIN_NAME>/SMERP/CL_PM_EQUIPMENT_DO</ORG_MAIN_NAME>
+    <PROGRAMNAME>/SMERP/CL_PM_EQUIPMENT_DO=====CP</PROGRAMNAME>
+   </ORIGINAL_OBJECT>
+   <ENHANCEMENTS>
+    <ENH_HOOK_IMPL>
+     <PROGRAMNAME>/SMERP/CL_PM_EQUIPMENT_DO=====CP</PROGRAMNAME>
+     <ENHMODE>S</ENHMODE>
+     <FULL_NAME>\TY:/SMERP/CL_PM_EQUIPMENT_DO\IN:/SYCLO/IF_CORE_DO_HANDLER\ME:UPDATE\SE:END\EI</FULL_NAME>
+    </ENH_HOOK_IMPL>
+   </ENHANCEMENTS>
+   <FILES>
+    <item>
+     <NAME>\TY:/SMERP/CL_PM_EQUIPMENT_DO\IN:/SYCLO/IF_CORE_DO_HANDLER\ME:UPDATE\SE:END\EI</NAME>
+     <FILE>0d16198a</FILE>
+    </item>
+   </FILES>
+   <SOTR>
+    <item>
+     <HEADER>
+      <CONCEPT>55B56827E9F91590E10080000A14D03A</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>55B56827E9F91590E10080000A14D03A</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>080</LENGTH>
+       <TEXT>Enhancement to update the Station Capacitiy Indicator</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
+    </item>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZSTATION_INDICATOR</OBJ_NAME>
+     <CONCEPT>55B56827E9F91590E10080000A14D03A</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

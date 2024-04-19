@@ -1,0 +1,8 @@
+"Name: \PR:SAPLCOMK\FO:CMP_CHECK_USER_EXIT\SE:BEGIN\EI
+ENHANCEMENT 0 ZPM_AFNAM_UPPER_CASE.
+*
+  IF cs_resbd_new-afnam NE is_resbd_old-afnam.
+   TRANSLATE cs_resbd_new-afnam TO UPPER CASE.
+  ENDIF.
+
+ENDENHANCEMENT.

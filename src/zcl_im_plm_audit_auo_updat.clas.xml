@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_IM_PLM_AUDIT_AUO_UPDAT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Imp. class for BAdI imp. ZPLM_AUDIT_AUO_UPDAT</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>AUDIT_AT_SAVE</CMPNAME>
+     <SCONAME>ERROR_WITH_MESSAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Error Message Occurred</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AUDIT_AT_SAVE</CMPNAME>
+     <SCONAME>IR_AUDIT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Project Planning: Projects</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AUDIT_AT_SAVE</CMPNAME>
+     <SCONAME>IR_AUDIT_ATTR_ASSIGNMENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Audit - Assignment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUESTION_AT_SAVE</CMPNAME>
+     <SCONAME>IR_QUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Project Planning: Transactions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUESTION_AT_SAVE</CMPNAME>
+     <SCONAME>IR_QUEST_ATTR_ASSIGNMENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Question List for the Audit - Assignment</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>QUESTION_AT_SAVE</CMPNAME>
+     <SCONAME>IS_QUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Audit Question/Reply List/Item</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

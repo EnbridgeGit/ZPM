@@ -1,0 +1,1255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>1</LANGUAGE>
+     <ID/>
+     <TEXT>???? PM/SM ??</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>2</LANGUAGE>
+     <ID/>
+     <TEXT>?????? PM/SM ???????????????</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>3</LANGUAGE>
+     <ID/>
+     <TEXT>?? ??? ?? PM/SM ??</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>4</LANGUAGE>
+     <ID/>
+     <TEXT>Formulare PM/SM pt.toate documente</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>5</LANGUAGE>
+     <ID/>
+     <TEXT>PM/SM obrazci za vse papirje</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>6</LANGUAGE>
+     <ID/>
+     <TEXT>PM/SM obrasci za sve papire</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>A</LANGUAGE>
+     <ID/>
+     <TEXT>????? PM/SM ????? ?????????</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>B</LANGUAGE>
+     <ID/>
+     <TEXT>????? PS/SM ???? ?? ???????</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>C</LANGUAGE>
+     <ID/>
+     <TEXT>Formul#re PM/SM pro v#echny pap#ry</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>D</LANGUAGE>
+     <ID/>
+     <TEXT>PM-/SM-Formulare f#r alle Papiere</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>PM/SM Forms for All Papers</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>F</LANGUAGE>
+     <ID/>
+     <TEXT>Formulaires PM/SM pour tous documents</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>G</LANGUAGE>
+     <ID/>
+     <TEXT>F??#e? PM/SM ??a ??a ta ????afa</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>H</LANGUAGE>
+     <ID/>
+     <TEXT>PM-/SM-urlapok minden dokumentumhoz</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>I</LANGUAGE>
+     <ID/>
+     <TEXT>Moduli PM/SM per tutti i documenti</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>J</LANGUAGE>
+     <ID/>
+     <TEXT>??????? PM/SM ????</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>K</LANGUAGE>
+     <ID/>
+     <TEXT>IH-/SM-formularer for alle papirer</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>L</LANGUAGE>
+     <ID/>
+     <TEXT>Formularz PM/SM dla wszystkich dokument#</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>M</LANGUAGE>
+     <ID/>
+     <TEXT>????? PM/SM ??</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>N</LANGUAGE>
+     <ID/>
+     <TEXT>PM/SM-formulieren voor alle papieren</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>O</LANGUAGE>
+     <ID/>
+     <TEXT>PM-/servicestyringsformularer til alle papirer</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>P</LANGUAGE>
+     <ID/>
+     <TEXT>Formul#rios PM/SM para todos os documentos</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>Q</LANGUAGE>
+     <ID/>
+     <TEXT>Formul#re PM/SM pre v#etky dokumenty</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>R</LANGUAGE>
+     <ID/>
+     <TEXT>PM-/SM-????????? ??? ???? ?????</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>S</LANGUAGE>
+     <ID/>
+     <TEXT>Formularios PM/SM para todos los documentos</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>T</LANGUAGE>
+     <ID/>
+     <TEXT>T#m belgeler i#in PM/SM formlari</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>U</LANGUAGE>
+     <ID/>
+     <TEXT>KP-/CS-lomakkeet kaikkia papereita varten</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>V</LANGUAGE>
+     <ID/>
+     <TEXT>PM-/CS-formul#r f#r alla dokument</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>W</LANGUAGE>
+     <ID/>
+     <TEXT>PM/SM ????????? ?? ?????? ?????</TEXT>
+    </FPINTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>d</LANGUAGE>
+     <ID/>
+     <TEXT>PM/SM obrasci za sve dokumente</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>ORDER_DETAILS-MENGE</VALUE>
+       <UNIT>ORDER_DETAILS-EINHEIT</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>SRVLINES-MENGE</VALUE>
+       <UNIT>SRVLINES-MEINS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>SRVLINES-TBTWR</VALUE>
+       <UNIT>SERVICES-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>SRVLINES-NETWR</VALUE>
+       <UNIT>SERVICES-WAERS</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>SRVLINES-INT_WORK</VALUE>
+       <UNIT>SRVLINES-IWEIN</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>SY_DATE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>SY-DATUM</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>XSTRING</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>XSTRING</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>ZONE_DESC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PLTXT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>LOC_DESC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KTEXT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>PRINTBY_DESC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>AD_NAMTEXT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>SPLITS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LTT_SPLITS</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>SYSCOND_DESC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ANLZUX</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_OPERATION</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LTT_OPERATION</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_IMPTT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LTT_IMPTT</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_QPCD</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LTT_QPCD</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GT_MCODES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>LTT_MCODES</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES>
+      <FPCLINE>TYPES: BEGIN OF lty_zone,</FPCLINE>
+      <FPCLINE>        tplnr TYPE tplnr,</FPCLINE>
+      <FPCLINE>        zone  TYPE tplnr,</FPCLINE>
+      <FPCLINE>        pltxt TYPE pltxt,</FPCLINE>
+      <FPCLINE>       END OF lty_zone,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>       ltt_zone TYPE STANDARD TABLE OF lty_zone.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>TYPES: BEGIN OF lty_splits,</FPCLINE>
+      <FPCLINE>        bedid TYPE bedid,</FPCLINE>
+      <FPCLINE>        bedzl TYPE cim_count,</FPCLINE>
+      <FPCLINE>        dauno TYPE daunor,</FPCLINE>
+      <FPCLINE>        daune TYPE daunore,</FPCLINE>
+      <FPCLINE>        anzzl TYPE anzkap,</FPCLINE>
+      <FPCLINE>        arbpl TYPE arbpl,</FPCLINE>
+      <FPCLINE>       END OF lty_splits,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>       ltt_splits TYPE STANDARD TABLE OF lty_splits.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>TYPES: BEGIN OF lty_operation,</FPCLINE>
+      <FPCLINE>        vornr TYPE afvgd-vornr,</FPCLINE>
+      <FPCLINE>        uvorn TYPE afvgd-uvorn,</FPCLINE>
+      <FPCLINE>        ltxa1 TYPE afvgd-ltxa1,</FPCLINE>
+      <FPCLINE>        dauno TYPE afvgd-dauno,</FPCLINE>
+      <FPCLINE>        daune TYPE afvgd-daune,</FPCLINE>
+      <FPCLINE>        bedid TYPE afvgd-bedid,</FPCLINE>
+      <FPCLINE>        bedzl TYPE afvgd-bedzl,</FPCLINE>
+      <FPCLINE>        aufpl TYPE afvgd-aufpl,</FPCLINE>
+      <FPCLINE>        aplzl TYPE afvgd-aplzl,</FPCLINE>
+      <FPCLINE>        arbei TYPE afvgd-arbei,</FPCLINE>
+      <FPCLINE>        arbeh TYPE afvgd-arbeh,</FPCLINE>
+      <FPCLINE>        fsavd TYPE afvgd-fsavd,</FPCLINE>
+      <FPCLINE>        fsavz TYPE afvgd-fsavz,</FPCLINE>
+      <FPCLINE>        ssavd TYPE afvgd-ssavd,</FPCLINE>
+      <FPCLINE>        ssavz TYPE afvgd-ssavz,</FPCLINE>
+      <FPCLINE>        arbpl TYPE afvgd-arbpl,</FPCLINE>
+      <FPCLINE>        packno TYPE afvgd-packno,</FPCLINE>
+      <FPCLINE>        ktext TYPE ops_table_for_wrkcenter_dtl-ktext,</FPCLINE>
+      <FPCLINE>      END OF lty_operation,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      ltt_operation TYPE STANDARD TABLE OF lty_operation,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      BEGIN OF lty_qpcd,</FPCLINE>
+      <FPCLINE>        katalogart TYPE qkatart,</FPCLINE>
+      <FPCLINE>        codegruppe TYPE qcodegrp,</FPCLINE>
+      <FPCLINE>        code       TYPE qcode,</FPCLINE>
+      <FPCLINE>      END OF lty_qpcd,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      ltt_qpcd TYPE STANDARD TABLE OF lty_qpcd,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      BEGIN OF lty_mcodes,</FPCLINE>
+      <FPCLINE>        point TYPE imptt-point,</FPCLINE>
+      <FPCLINE>        code  TYPE qcode,</FPCLINE>
+      <FPCLINE>      END OF ltY_mcodes,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      ltt_mcodes TYPE STANDARD TABLE OF lty_mcodes,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      BEGIN OF lty_imptt,</FPCLINE>
+      <FPCLINE>        point TYPE imptt-point,</FPCLINE>
+      <FPCLINE>        codct TYPE imptt-codct,</FPCLINE>
+      <FPCLINE>        codgr TYPE imptt-codgr,</FPCLINE>
+      <FPCLINE>      END OF lty_imptt,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>      ltt_imptt TYPE STANDARD TABLE OF lty_imptt.</FPCLINE>
+     </TYPES>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>ORDER_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>CAUFVD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ORDER_HEAD_LONGTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRAT00_T_TDLINE_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>OBJECT_CONNECTION</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RIWO1</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>OPERATION_ORDER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>AFVGD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TASK_LIST</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>RCR01</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CONFIRMATION_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>AFVGD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CAPACITY_COMMITMENTS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>KBEDP</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TITLE_PAGE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>WIPRT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>NOTIFICATION_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>VIQMEL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>NOTIFICATION_TYPE_TEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TQ80_T</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MAINTENANCE_PANNER_GROUPS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T024I</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>NOTIFICATION_DETAIL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>WQMFE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MATERIAL_DESCRIPTIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>MAKT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>NOTIFICATION_HEAD_LONGTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRAT00_T_TDLINE_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>NOTIFICATION_DETAIL_LONGTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRAT00_T_TDLINE_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>INSPECTION_CATALOG_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRAT00_T_QKAT_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>INSPECTION_CATALOG_ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRAT00_T_QKAT_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ORDER_DETAILS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRMP00_T_TBL_PICKLST_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PARTNER_INFO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRCT00_T_IHPAD_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ORDER_TYPE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T003P</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PRIORITY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T356_T</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>LOCAL_ACCOUNT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ILOA</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>OBJECT_LIST</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRCT00_T_RIPW0_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>REVISIONS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>T352R</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>FACT_TXTCDGR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>WQMFE-TXTCDGR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ORDER_OPERATION</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRCT00_T_AFVGD_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PERMITS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRCT00_T_V_T357G_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CLASS_OBJECT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRCT00_T_API_KSSK_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CLASS_VALUE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRCT00_T_API_VAL_R_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PERMIT_SEGMENT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRCT00_T_IHGNS_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PRINTLOG</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>PMPL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MATERIAL_INFO</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TT_RESBD</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TIME_TICKET_END_SPLIT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRTTS0_T_KBEDP_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTYP_STLVPOS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVTYP</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTYP_KNT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVTYP</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTYP_PLN</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVTYP</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTIME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_TIME</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_T166P</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>FORMULABODY</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_VARIABLEN</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>FORMULAHDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_FORMEL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVLINES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVLINE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SRVHDR</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_SRVHDR</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SERVICES</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TY_MMPUR_PRINT_ML_ESLL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>ADDRESS</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_ADDRESS_FOR_TASK</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>STATUS_LINE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_STATUS_TABLE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>TASK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TASK_TABLE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>NOTIF_CAUSE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRSN00_T_WQMUR_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>OPERATION_DETAIL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TABLE_FOR_OPSDETAILS</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SYSTEM_CONDITION</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRMP00_T_T357Z_T_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MATERIAL_LONGTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TABLE_FOR_MATLONGTXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PURCHASE_DOC_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EKKO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PURCHASE_DOC_ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EKPO</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>WORK_CENTER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TABLE_FOR_WRKCENTER_DETAIL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PRT_ORDER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_RIPRJT00_T_AFFHD_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>OPERATION_LONGTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TABLE_FOR_MATLONGTXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>PRT_LONGTEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TABLE_FOR_MATLONGTXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>MATERIAL_DESC_TBL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TABLE_MAKT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>NOTIFICATION_DETAIL_TBL</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TABLE_NOTIFIACTION_DETAIL</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>CAUSE_TEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TBL_FOR_LONGTXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>NOTIFICATION_DETAIL_LONG_TEXT</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>OPS_TBL_FOR_LONGTXT</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>SESS_TZONE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>TTZZ-TZONE</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>EAML_LFE_DATA_HEADER</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EAML_S_LFE_DATA_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>EAML_LFE_DATA_ITEM</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>EAML_S_LFE_DATA_PDF</TYPENAME>
+       <OPTIONAL>X</OPTIONAL>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS/>
+     <OUTPUT_PARAMETERS/>
+     <INITIALIZATION>
+      <FPCLINE>********************************************************************************************</FPCLINE>
+      <FPCLINE>* This part of the code initialization section will convert the application server time to</FPCLINE>
+      <FPCLINE>* user specific time zone and BADI will return the user date if the Time zone</FPCLINE>
+      <FPCLINE>* functionality is active else will return the application server date.</FPCLINE>
+      <FPCLINE>********************************************************************************************</FPCLINE>
+      <FPCLINE>TABLES: tka01,</FPCLINE>
+      <FPCLINE>        afvv,</FPCLINE>
+      <FPCLINE>        afvvi,</FPCLINE>
+      <FPCLINE>        mara,</FPCLINE>
+      <FPCLINE>        ckhs,</FPCLINE>
+      <FPCLINE>        t001,</FPCLINE>
+      <FPCLINE>        rc29p,</FPCLINE>
+      <FPCLINE>        stpo.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>DATA: lwa_split TYPE lty_splits,</FPCLINE>
+      <FPCLINE>      lwa_afvgd TYPE afvgd,</FPCLINE>
+      <FPCLINE>      lwa_work_center TYPE ops_table_for_wrkcenter_dtl,</FPCLINE>
+      <FPCLINE>      lit_mdoc TYPE ops_riprjt00_t_affhd_pdf,</FPCLINE>
+      <FPCLINE>      lwa_mcodes TYPE lty_mcodes,</FPCLINE>
+      <FPCLINE>      lwa_operation TYPE lty_operation.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>FIELD-SYMBOLS: &lt;lfs_splits&gt; TYPE lty_splits,</FPCLINE>
+      <FPCLINE>               &lt;lfs_imptt&gt;  TYPE lty_imptt,</FPCLINE>
+      <FPCLINE>               &lt;lfs_qpcd&gt;   TYPE lty_qpcd.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF order_header-anlzu IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT SINGLE anlzux FROM t357m_t</FPCLINE>
+      <FPCLINE>         INTO syscond_desc</FPCLINE>
+      <FPCLINE>         WHERE spras = sy-langu AND</FPCLINE>
+      <FPCLINE>               anlzu = order_header-anlzu.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>CALL METHOD cl_ssf_xsf_utilities=&gt;get_bds_graphic_as_bmp</FPCLINE>
+      <FPCLINE>  EXPORTING</FPCLINE>
+      <FPCLINE>    p_object       = &apos;GRAPHICS&apos;</FPCLINE>
+      <FPCLINE>    p_name         = &apos;ZUGLOGO&apos;</FPCLINE>
+      <FPCLINE>    p_id           = &apos;BMAP&apos;</FPCLINE>
+      <FPCLINE>    p_btype        = &apos;BCOL&apos;</FPCLINE>
+      <FPCLINE>  RECEIVING</FPCLINE>
+      <FPCLINE>    p_bmp          = xstring</FPCLINE>
+      <FPCLINE>  EXCEPTIONS</FPCLINE>
+      <FPCLINE>    not_found      = 1</FPCLINE>
+      <FPCLINE>    internal_error = 2</FPCLINE>
+      <FPCLINE>    OTHERS         = 3.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>SELECT SINGLE name_text</FPCLINE>
+      <FPCLINE>       FROM user_addrp</FPCLINE>
+      <FPCLINE>       INTO printby_desc</FPCLINE>
+      <FPCLINE>       WHERE bname = sy-uname.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF order_header-tplnr IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  CALL METHOD zcl_shoppaper_initialize=&gt;get_zone</FPCLINE>
+      <FPCLINE>    EXPORTING</FPCLINE>
+      <FPCLINE>      im_tplnr = order_header-tplnr</FPCLINE>
+      <FPCLINE>    IMPORTING</FPCLINE>
+      <FPCLINE>      ex_zonet = zone_desc.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF order_header-stort IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT SINGLE ktext FROM t499s</FPCLINE>
+      <FPCLINE>         INTO loc_desc</FPCLINE>
+      <FPCLINE>         WHERE werks = order_header-swerk AND</FPCLINE>
+      <FPCLINE>               stand = order_header-stort.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>IF order_operation IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT bedid</FPCLINE>
+      <FPCLINE>         bedzl</FPCLINE>
+      <FPCLINE>         dauno</FPCLINE>
+      <FPCLINE>         daune</FPCLINE>
+      <FPCLINE>         FROM kbez</FPCLINE>
+      <FPCLINE>         INTO TABLE splits</FPCLINE>
+      <FPCLINE>         FOR ALL ENTRIES IN order_operation</FPCLINE>
+      <FPCLINE>         WHERE bedid = order_operation-bedid AND</FPCLINE>
+      <FPCLINE>               bedzl = order_operation-bedzl.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>    SORT splits BY bedid bedzl.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  LOOP AT order_operation INTO lwa_afvgd.</FPCLINE>
+      <FPCLINE>    CLEAR: lwa_operation, lwa_work_center.</FPCLINE>
+      <FPCLINE>    lwa_operation-vornr = lwa_afvgd-vornr.</FPCLINE>
+      <FPCLINE>    lwa_operation-bedid = lwa_afvgd-bedzl.</FPCLINE>
+      <FPCLINE>    lwa_operation-bedid = lwa_afvgd-bedzl.</FPCLINE>
+      <FPCLINE>    lwa_operation-packno = lwa_afvgd-packno.</FPCLINE>
+      <FPCLINE>    lwa_operation-uvorn = lwa_afvgd-uvorn.</FPCLINE>
+      <FPCLINE>    lwa_operation-ltxa1 = lwa_afvgd-ltxa1.</FPCLINE>
+      <FPCLINE>    lwa_operation-aufpl = lwa_afvgd-aufpl.</FPCLINE>
+      <FPCLINE>    lwa_operation-aplzl = lwa_afvgd-aplzl.</FPCLINE>
+      <FPCLINE>    lwa_operation-dauno = lwa_afvgd-dauno.</FPCLINE>
+      <FPCLINE>    lwa_operation-daune = lwa_afvgd-daune.</FPCLINE>
+      <FPCLINE>    lwa_operation-arbeh = lwa_afvgd-arbei.</FPCLINE>
+      <FPCLINE>    lwa_operation-fsavd = lwa_afvgd-fsavd.</FPCLINE>
+      <FPCLINE>    lwa_operation-fsavz = lwa_afvgd-fsavz.</FPCLINE>
+      <FPCLINE>    lwa_operation-ssavd = lwa_afvgd-ssavd.</FPCLINE>
+      <FPCLINE>    lwa_operation-ssavz = lwa_afvgd-ssavz.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    READ TABLE work_center INTO lwa_work_center</FPCLINE>
+      <FPCLINE>                           WITH KEY vornr = lwa_afvgd-vornr</FPCLINE>
+      <FPCLINE>                                    uvorn = lwa_afvgd-uvorn</FPCLINE>
+      <FPCLINE>                                    arbid = lwa_afvgd-arbid.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    lwa_operation-arbpl = lwa_work_center-arbpl.</FPCLINE>
+      <FPCLINE>    lwa_operation-ktext = lwa_work_center-ktext.</FPCLINE>
+      <FPCLINE>    APPEND lwa_operation TO gt_operation.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>*        ltxa1 TYPE afvgd-ltxa1,</FPCLINE>
+      <FPCLINE>*        dauno TYPE afvgd-dauno,</FPCLINE>
+      <FPCLINE>*        daune TYPE afvgd-daune,</FPCLINE>
+      <FPCLINE>*        arbei TYPE afvgd-arbei,</FPCLINE>
+      <FPCLINE>*        arbeh TYPE afvgd-arbeh,</FPCLINE>
+      <FPCLINE>*        fsavd TYPE afvgd-fsavd,</FPCLINE>
+      <FPCLINE>*        fsavz TYPE afvgd-fsavz,</FPCLINE>
+      <FPCLINE>*        ssavd TYPE afvgd-ssavd,</FPCLINE>
+      <FPCLINE>*        ssavz TYPE afvgd-ssavz,</FPCLINE>
+      <FPCLINE>*        arbpl TYPE afvgd-arbpl,</FPCLINE>
+      <FPCLINE>*        ktext TYPE ops_table_for_wrkcenter_dtl-ktext,</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE/>
+      <FPCLINE>    LOOP AT splits ASSIGNING &lt;lfs_splits&gt; WHERE bedid = lwa_afvgd-bedid AND</FPCLINE>
+      <FPCLINE>                                                bedzl = lwa_afvgd-bedzl.</FPCLINE>
+      <FPCLINE>      &lt;lfs_splits&gt;-arbpl = lwa_afvgd-arbpl.</FPCLINE>
+      <FPCLINE>      &lt;lfs_splits&gt;-anzzl = 1.</FPCLINE>
+      <FPCLINE>    ENDLOOP.</FPCLINE>
+      <FPCLINE>    IF sy-subrc NE 0.</FPCLINE>
+      <FPCLINE>      lwa_split-bedid = lwa_afvgd-bedid.</FPCLINE>
+      <FPCLINE>      lwa_split-bedzl = lwa_afvgd-bedzl.</FPCLINE>
+      <FPCLINE>      lwa_split-dauno = lwa_afvgd-dauno.</FPCLINE>
+      <FPCLINE>      lwa_split-daune = lwa_afvgd-daune.</FPCLINE>
+      <FPCLINE>      lwa_split-arbpl = lwa_afvgd-arbpl.</FPCLINE>
+      <FPCLINE>      lwa_split-anzzl = lwa_afvgd-anzzl.</FPCLINE>
+      <FPCLINE>      APPEND lwa_split TO splits.</FPCLINE>
+      <FPCLINE>      CLEAR lwa_split.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDLOOP.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+      <FPCLINE>lit_mdoc = prt_order.</FPCLINE>
+      <FPCLINE>DELETE lit_mdoc WHERE fhmar NE &apos;P&apos;.</FPCLINE>
+      <FPCLINE>IF lit_mdoc IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>  SELECT point</FPCLINE>
+      <FPCLINE>         codct</FPCLINE>
+      <FPCLINE>         codgr</FPCLINE>
+      <FPCLINE>         FROM imptt</FPCLINE>
+      <FPCLINE>         INTO TABLE gt_imptt</FPCLINE>
+      <FPCLINE>         FOR ALL ENTRIES IN lit_mdoc WHERE point = lit_mdoc-eqpnt.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>  IF gt_imptt IS NOT INITIAL.</FPCLINE>
+      <FPCLINE>    SELECT katalogart</FPCLINE>
+      <FPCLINE>           codegruppe</FPCLINE>
+      <FPCLINE>           code</FPCLINE>
+      <FPCLINE>           FROM qpcd</FPCLINE>
+      <FPCLINE>           INTO TABLE gt_qpcd</FPCLINE>
+      <FPCLINE>           FOR ALL ENTRIES IN gt_imptt</FPCLINE>
+      <FPCLINE>           WHERE katalogart = gt_imptt-codct AND</FPCLINE>
+      <FPCLINE>                 codegruppe = gt_imptt-codgr.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE>    IF sy-subrc EQ 0.</FPCLINE>
+      <FPCLINE>      LOOP AT gt_imptt ASSIGNING &lt;lfs_imptt&gt;.</FPCLINE>
+      <FPCLINE>        LOOP AT gt_qpcd ASSIGNING &lt;lfs_qpcd&gt; WHERE katalogart = &lt;lfs_imptt&gt;-codct AND</FPCLINE>
+      <FPCLINE>                                                   codegruppe = &lt;lfs_imptt&gt;-codgr.</FPCLINE>
+      <FPCLINE>          lwa_mcodes-point = &lt;lfs_imptt&gt;-point.</FPCLINE>
+      <FPCLINE>          lwa_mcodes-code  = &lt;lfs_qpcd&gt;-code.</FPCLINE>
+      <FPCLINE>          APPEND lwa_mcodes TO gt_mcodes.</FPCLINE>
+      <FPCLINE>          CLEAR lwa_mcodes.</FPCLINE>
+      <FPCLINE>        ENDLOOP.</FPCLINE>
+      <FPCLINE>      ENDLOOP.</FPCLINE>
+      <FPCLINE>    ENDIF.</FPCLINE>
+      <FPCLINE>  ENDIF.</FPCLINE>
+      <FPCLINE>ENDIF.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

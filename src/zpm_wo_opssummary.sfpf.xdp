@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xfa generator="AdobeLiveCycleDesignerES_V10.4.0.20121103.1.882846_SAP" APIVersion="3.6.12290.0"?><xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2015-03-19T06:20:57Z" uuid="05dae15b-428b-484e-8f1d-a2d612143382">
+<template xmlns:xliff="urn:oasis:names:tc:xliff:document:1.1" xmlns="http://www.xfa.org/schema/xfa-template/2.8/">
+   <?formServer defaultPDFRenderFormat acrobat9.0dynamic?>
+   <?formServer allowRenderCaching 0?>
+   <?formServer formModel both?>
+   <subform layout="tb" locale="en_US" name="data" restoreState="auto">
+      <pageSet>
+         <pageArea id="Page1" name="Page1">
+            <medium long="279.4mm" short="215.9mm" stock="letterColor"/>
+            <occur max="1" min="1"/>
+            <subform h="7.5mm" w="185.9mm" x="15mm" y="256.67mm">
+               <bind match="none"/>
+               <keep intact="none"/>
+               <field access="readOnly" h="6.35mm" name="DateTimeField1" w="44.45mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <date/>
+                  </value>
+                  <caption reserve="13.8111mm">
+                     <font baselineShift="0pt" size="8pt" typeface="Arial"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="3CD8D500-BC45-4CF2-B308-13BA3DEA9C4F">Print date:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.SFPSY.DATE"/>
+                  <format>
+                     <picture>date.short{}</picture>
+                  </format>
+               </field>
+               <field access="readOnly" h="6.35mm" name="PRINTBY_DESC" w="76.2mm" x="44.449mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="13.8111mm">
+                     <font baselineShift="0pt" size="8pt" typeface="Arial"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="1C58CCDF-C08D-4A9D-BD92-9BBD7CBA4A0F">Printed by:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.PRINTBY_DESC"/>
+                  <desc>
+                     <text name="Schema Annotation">Full Name of Person</text>
+                  </desc>
+                  <value>
+                     <text maxChars="80"/>
+                  </value>
+               </field>
+               <border>
+                  <edge/>
+                  <corner thickness="0.176mm"/>
+                  <corner presence="hidden" thickness="0.176mm"/>
+                  <edge/>
+                  <edge presence="hidden"/>
+                  <edge/>
+               </border>
+               <field access="readOnly" h="7.5mm" id="floatingField000041" name="CurrentPage" presence="hidden" w="55mm" x="50.825mm">
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="20mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="C8A28E5E-0062-4ABB-AD14-7A1C126AE294">Text Field</text>
+                     </value>
+                  </caption>
+                  <calculate override="error"/>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.page(this);
+</script>
+                  </event>
+                  <?templateDesigner floatingFieldPlaceholder #?>
+                  <bind match="none"/>
+               </field>
+               <field access="readOnly" h="7.5mm" id="floatingField018467" name="PageCount" presence="hidden" w="55mm" x="50.825mm">
+                  <ui>
+                     <numericEdit>
+                        <border>
+                           <edge stroke="lowered"/>
+                        </border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="20mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="8CBCD910-F156-4140-8130-7DBD853BD98E">Text Field</text>
+                     </value>
+                  </caption>
+                  <calculate override="error"/>
+                  <event activity="ready" name="event__layout_ready" ref="$layout">
+                     <script contentType="application/x-javascript">this.rawValue = xfa.layout.pageCount();
+</script>
+                  </event>
+                  <?templateDesigner floatingFieldPlaceholder ##?>
+                  <bind match="none"/>
+               </field>
+               <draw name="Pages" x="169.15mm" y="2.33mm">
+                  <ui>
+                     <textEdit>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <value>
+                     <exData contentType="text/html" maxLength="0" xliff:rid="2275ED7E-5385-4E3B-B701-57F441ED534A">
+                        <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><p>Page<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField000041" xfa:embedMode="raw" xfa:embedType="uri"/> of<span style="xfa-spacerun:yes"> </span><span xfa:embed="#floatingField018467" xfa:embedMode="raw" xfa:embedType="uri"/></p></body>
+                     </exData>
+                  </value>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                  <para vAlign="middle"/>
+               </draw>
+               <?templateDesigner expand 1?></subform>
+            <subform h="63.089mm" w="186.952mm" x="13.948mm" y="15mm">
+               <bind match="none"/>
+               <keep intact="none"/>
+               <draw h="5.939mm" name="Page1Title" w="62.5mm" x="66.052mm">
+                  <ui>
+                     <textEdit/>
+                  </ui>
+                  <value>
+                     <text xliff:rid="050AB218-8279-48B2-BE1F-DD6078320B22">Operations Summary</text>
+                  </value>
+                  <font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <para hAlign="center" marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                  <?renderCache.bounds 174331 14001 0 0 1417 1417 0 0?>
+                  <?renderCache.textRun 18 Operations Summary 0 17783 12471 0 0 0 "Arial" 1 0 14000 ISO-8859-1?></draw>
+               <subform h="37.689mm" name="Zone" w="186.052mm" x="0mm" y="25.4mm">
+                  <bind match="none"/>
+                  <subform h="12.289mm" name="FuncEquip" w="182mm" x="1.052mm" y="6.35mm">
+                     <bind match="none"/>
+                     <field access="readOnly" h="5.939mm" name="TPLNR" w="91mm" x="0mm" y="0.875mm">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="1mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                        <value>
+                           <text maxChars="30"/>
+                        </value>
+                        <bind match="dataRef" ref="$.ORDER_HEADER.TPLNR"/>
+                        <desc>
+                           <text name="Schema Annotation">Functional Location</text>
+                        </desc>
+                        <caption reserve="20mm">
+                           <font baselineShift="0pt" typeface="Arial" weight="bold"/>
+                           <value>
+                              <text xliff:rid="C85C8149-5846-4C82-B203-1345A5D6EC98">Func. Loc:</text>
+                           </value>
+                           <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        </caption>
+                     </field>
+                     <field access="readOnly" h="5.939mm" name="EQUNR" w="91mm" y="6.35mm">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="1mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text maxChars="18"/>
+                        </value>
+                        <bind match="dataRef" ref="$.ORDER_HEADER.EQUNR"/>
+                        <desc>
+                           <text name="Schema Annotation">Equipment Number</text>
+                        </desc>
+                        <caption reserve="20mm">
+                           <font baselineShift="0pt" typeface="Arial" weight="bold"/>
+                           <value>
+                              <text xliff:rid="507FE429-B92D-41A8-B487-4EF764B97F2C">Equipment:</text>
+                           </value>
+                           <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        </caption>
+                     </field>
+                     <field access="readOnly" h="5.939mm" name="PLTXT" w="90mm" x="92mm" y="0.875mm">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text maxChars="40"/>
+                        </value>
+                        <bind match="dataRef" ref="$.OBJECT_CONNECTION.PLTXT"/>
+                        <desc>
+                           <text name="Schema Annotation">Description of functional location</text>
+                        </desc>
+                     </field>
+                     <field access="readOnly" h="5.939mm" name="EQTXT" w="90mm" x="92mm" y="6.35mm">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <font baselineShift="0pt" typeface="Arial"/>
+                        <margin bottomInset="0.5mm" leftInset="0mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                        <value>
+                           <text maxChars="40"/>
+                        </value>
+                        <bind match="dataRef" ref="$.OBJECT_CONNECTION.EQTXT"/>
+                        <desc>
+                           <text name="Schema Annotation">Description of technical object</text>
+                        </desc>
+                     </field>
+                     <?templateDesigner expand 1?></subform>
+                  <field access="readOnly" h="5.939mm" name="BAUTL" w="91mm" x="1.052mm" y="19.05mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font baselineShift="0pt" typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="1mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                     <value>
+                        <text maxChars="18"/>
+                     </value>
+                     <bind match="dataRef" ref="$.ORDER_HEADER.BAUTL"/>
+                     <desc>
+                        <text name="Schema Annotation">Assembly</text>
+                     </desc>
+                     <caption reserve="20mm">
+                        <font baselineShift="0pt" typeface="Arial" weight="bold"/>
+                        <value>
+                           <text xliff:rid="3CC10013-F672-4E8B-B945-7B8973E169E9">Assembly:</text>
+                        </value>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </caption>
+                  </field>
+                  <field access="readOnly" h="5.939mm" name="BAUTX" w="90mm" x="93.052mm" y="19.05mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font baselineShift="0pt" typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <value>
+                        <text maxChars="40"/>
+                     </value>
+                     <bind match="dataRef" ref="$.OBJECT_CONNECTION.BAUTX"/>
+                     <desc>
+                        <text name="Schema Annotation">Description of PM Assembly</text>
+                     </desc>
+                  </field>
+                  <field access="readOnly" h="5.939mm" name="STORT" w="91mm" x="1.052mm" y="25.4mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font baselineShift="0pt" typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="1mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                     <value>
+                        <text maxChars="10"/>
+                     </value>
+                     <bind match="dataRef" ref="$.ORDER_HEADER.STORT"/>
+                     <desc>
+                        <text name="Schema Annotation">Asset location</text>
+                     </desc>
+                     <caption reserve="20mm">
+                        <font baselineShift="0pt" typeface="Arial" weight="bold"/>
+                        <value>
+                           <text xliff:rid="51B55829-FA3D-4FA3-9B2E-B0EB22B611DB">Location:</text>
+                        </value>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </caption>
+                  </field>
+                  <field access="readOnly" h="5.939mm" name="LOC_DESC" w="90mm" x="93.052mm" y="25.4mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font baselineShift="0pt" typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="0mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <value>
+                        <text maxChars="20"/>
+                     </value>
+                     <bind match="dataRef" ref="$.LOC_DESC"/>
+                     <desc>
+                        <text name="Schema Annotation">General Name</text>
+                     </desc>
+                  </field>
+                  <field access="readOnly" h="5.939mm" name="MSGRP" w="91mm" x="1.052mm" y="31.75mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font baselineShift="0pt" typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="1mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                     <value>
+                        <text maxChars="8"/>
+                     </value>
+                     <bind match="dataRef" ref="$.ORDER_HEADER.MSGRP"/>
+                     <desc>
+                        <text name="Schema Annotation">Room</text>
+                     </desc>
+                     <caption reserve="20mm">
+                        <font baselineShift="0pt" typeface="Arial" weight="bold"/>
+                        <value>
+                           <text xliff:rid="8C71C239-54DA-4130-85AF-98D3133AD5CE">Room:</text>
+                        </value>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </caption>
+                  </field>
+                  <?templateDesigner expand 0?>
+                  <field access="readOnly" h="5.939mm" name="ZONE_DESC" w="182mm" x="1.052mm" y="0.875mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font baselineShift="0pt" typeface="Arial"/>
+                     <margin bottomInset="0.5mm" leftInset="1mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <value>
+                        <text maxChars="40"/>
+                     </value>
+                     <bind match="dataRef" ref="$.ZONE_DESC"/>
+                     <desc>
+                        <text name="Schema Annotation">Description of functional location</text>
+                     </desc>
+                     <caption reserve="91mm">
+                        <font baselineShift="0pt" typeface="Arial" weight="bold"/>
+                        <value>
+                           <text xliff:rid="F9F41A83-A84F-4726-94A7-6119FB9E5B1C">Zone/Branch:</text>
+                        </value>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     </caption>
+                  </field>
+                  <margin leftInset="3mm"/>
+               </subform>
+               <subform minH="5.939mm" name="OrderHead" w="88.725mm" x="1.052mm" y="18.988mm">
+                  <bind match="none"/>
+                  <field access="readOnly" h="5.939mm" name="AUFNR" w="47.625mm" x="38.1mm" y="0mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <value>
+                        <text maxChars="12"/>
+                     </value>
+                     <bind match="dataRef" ref="$.ORDER_HEADER.AUFNR"/>
+                     <desc>
+                        <text name="Schema Annotation">Order Number</text>
+                     </desc>
+                  </field>
+                  <field access="readOnly" h="5.939mm" name="AUART" w="19.05mm" x="19.05mm" y="0mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                     <value>
+                        <text maxChars="4"/>
+                     </value>
+                     <bind match="dataRef" ref="$.ORDER_HEADER.AUART"/>
+                  </field>
+                  <draw h="5.939mm" name="Text4" w="19.05mm" y="0mm">
+                     <ui>
+                        <textEdit/>
+                     </ui>
+                     <value>
+                        <text xliff:rid="E40EC007-B2D2-4904-9F9D-E25DD8A3E73B">Order :</text>
+                     </value>
+                     <font baselineShift="0pt" size="14pt" typeface="Arial" weight="bold"/>
+                     <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                     <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt" vAlign="middle"/>
+                     <?renderCache.bounds 51166 14001 0 0 1417 1417 0 0?>
+                     <?renderCache.textRun 7 Order : 0 1417 12471 0 0 0 "Arial" 1 0 14000 ISO-8859-1?></draw>
+                  <?templateDesigner expand 0?>
+                  <margin leftInset="3mm"/>
+               </subform>
+               <border>
+                  <edge/>
+                  <corner thickness="0.176mm"/>
+               </border>
+               <field h="19.05mm" name="GRAPHIC" w="63.5mm" x="122.952mm" y="0.5mm">
+                  <ui>
+                     <imageEdit data="embed"/>
+                  </ui>
+                  <bind match="dataRef" ref="$.GRAPHIC"/>
+                  <desc>
+                     <text name="embeddedHref">Unknown Embedded URI</text>
+                     <exData name="Schema Annotation">Graphic Node GRAPHIC 
+ URL-FIELD = XSTRING</exData>
+                  </desc>
+                  <value>
+                     <image aspect="none"/>
+                  </value>
+               </field>
+               <?templateDesigner expand 1?></subform>
+            <contentArea h="177.5mm" id="ContentArea_ID_copy1_copy1" name="Page1Context" w="185.9mm" x="15mm" y="79.375mm"/>
+            <draw h="186mm" name="Rectangle1" w="185.9mm" x="15mm" y="78.089mm">
+               <value>
+                  <rectangle>
+                     <edge/>
+                  </rectangle>
+               </value>
+            </draw>
+            <?templateDesigner expand 1?></pageArea>
+         <?templateDesigner expand 1?></pageSet>
+      <subform layout="tb" name="Page1" w="185.9mm">
+         <bind match="none"/>
+         <breakAfter/>
+         <subform layout="tb" name="Operations" w="185.9mm">
+            <bind match="dataRef" ref="$.OPERATIONS.ORDER_OPERATION.DATA[*]"/>
+            <occur max="-1" min="0"/>
+            <subform h="44.45mm">
+               <bind match="none"/>
+               <field access="readOnly" h="6.35mm" name="VORNR" w="62mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="3756BF1C-102D-42D3-9900-002F1624675E">Operation #:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.VORNR"/>
+                  <value>
+                     <text maxChars="4"/>
+                  </value>
+                  <desc>
+                     <text name="Schema Annotation">Operation/Activity Number</text>
+                  </desc>
+               </field>
+               <field access="readOnly" h="6.35mm" minW="60.325mm" name="LTXA1" y="6.35mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="ECC22FE6-F324-4F36-971A-836756B9D8EA">Description:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.LTXA1"/>
+                  <value>
+                     <text maxChars="40"/>
+                  </value>
+                  <desc>
+                     <text name="Schema Annotation">Operation short text</text>
+                  </desc>
+               </field>
+               <field access="readOnly" h="6.35mm" name="ARBPL" w="63.5mm" y="12.7mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="29.2624mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="4C292127-A893-44CA-A43C-394F4D6F3A03">Operation Workcenter:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.WORK_CENTER.DATA[*].ARBPL"/>
+                  <value>
+                     <text maxChars="8"/>
+                  </value>
+                  <desc>
+                     <text name="Schema Annotation">Work center</text>
+                  </desc>
+               </field>
+               <field h="6.35mm" minW="28.575mm" name="KTEXT" x="63.5mm" y="12.7mm">
+                  <ui>
+                     <textEdit multiLine="1"/>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <bind match="dataRef" ref="$.WORK_CENTER.DATA[*].KTEXT"/>
+                  <value>
+                     <text maxChars="40"/>
+                  </value>
+                  <desc>
+                     <text name="Schema Annotation">Work center description</text>
+                  </desc>
+                  <para vAlign="middle"/>
+               </field>
+               <field access="readOnly" h="6.35mm" name="FSAVD" w="62mm" x="0mm" y="19.05mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="30.9026mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="019208AE-8817-404A-BFC0-CF51E046405F">Scheduling Start:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.FSAVD">
+                     <picture>date{YYYY-MM-DD}</picture>
+                  </bind>
+                  <value>
+                     <date/>
+                  </value>
+                  <desc>
+                     <text name="Schema Annotation">Earliest scheduled start: Execution (date)</text>
+                  </desc>
+                  <validate nullTest="error"/>
+               </field>
+               <field h="6.35mm" name="FSAVZ" w="47.625mm" x="63.5mm" y="19.05mm">
+                  <ui>
+                     <dateTimeEdit/>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <value>
+                     <time/>
+                  </value>
+                  <bind match="dataRef" ref="$.FSAVZ">
+                     <picture>time{KK:MM:SS}</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Earliest scheduled start: Execution (time)</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <para vAlign="middle"/>
+               </field>
+               <field access="readOnly" h="6.35mm" name="SSAVD" w="62mm" y="25.4mm">
+                  <ui>
+                     <dateTimeEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </dateTimeEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="30.9026mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="FE2F4376-3379-4FD3-AF53-7141023507DF">Scheduling End:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.SSAVD">
+                     <picture>date{YYYY-MM-DD}</picture>
+                  </bind>
+                  <value>
+                     <date/>
+                  </value>
+                  <desc>
+                     <text name="Schema Annotation">Latest scheduled start: Execution (date)</text>
+                  </desc>
+                  <validate nullTest="error"/>
+               </field>
+               <field h="6.35mm" name="SSAVZ" w="47.625mm" x="63.5mm" y="25.4mm">
+                  <ui>
+                     <dateTimeEdit/>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                  <value>
+                     <time/>
+                  </value>
+                  <bind match="dataRef" ref="$.SSAVZ">
+                     <picture>time{KK:MM:SS}</picture>
+                  </bind>
+                  <desc>
+                     <text name="Schema Annotation">Latest scheduled start: Execution (time)</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <para vAlign="middle"/>
+               </field>
+               <field access="readOnly" h="6.35mm" name="ARBEI" w="34.925mm" y="31.75mm">
+                  <ui>
+                     <numericEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <value>
+                     <decimal fracDigits="0" leadDigits="2"/>
+                  </value>
+                  <caption reserve="25mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="0D065805-2159-405B-9113-290FFE235D6C">Work Hours Total:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.ARBEI"/>
+                  <desc>
+                     <text name="Schema Annotation">Work involved in the activity</text>
+                  </desc>
+                  <validate nullTest="error"/>
+               </field>
+               <margin topInset="1mm"/>
+               <field access="readOnly" h="6.35mm" name="ARBEH" w="19.05mm" x="34.925mm" y="31.75mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$.ARBEH"/>
+                  <desc>
+                     <text name="Schema Annotation">Unit for work</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <value>
+                     <text maxChars="3"/>
+                  </value>
+               </field>
+               <?templateDesigner expand 0?></subform>
+            <subform h="7.7mm" name="Subform1" w="136.57mm">
+               <bind match="dataRef" ref="$.SPLITS.DATA[*]"/>
+               <keep intact="none"/>
+               <field access="readOnly" h="6.35mm" name="ARBPL" w="47.625mm" x="31.75mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <caption reserve="9.866mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="D7095B6A-3DFD-41C0-825D-FCE864AB0896">Trade:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.ARBPL"/>
+                  <value>
+                     <text maxChars="8"/>
+                  </value>
+                  <desc>
+                     <text name="Schema Annotation">Work center</text>
+                  </desc>
+               </field>
+               <field access="readOnly" h="6.35mm" minW="22.225mm" name="DAUNO" x="82.55mm">
+                  <ui>
+                     <numericEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para hAlign="right" vAlign="middle"/>
+                  <value>
+                     <decimal fracDigits="1" leadDigits="4"/>
+                  </value>
+                  <caption reserve="12.6555mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="1A5769F8-9251-48E7-83F6-91476B04CFA5">Duration:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.DAUNO"/>
+                  <desc>
+                     <text name="Schema Annotation">Normal duration of the activity</text>
+                  </desc>
+                  <validate nullTest="error"/>
+               </field>
+               <field access="readOnly" h="6.35mm" name="DAUNE" w="31.795mm" x="104.775mm">
+                  <ui>
+                     <textEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </textEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <bind match="dataRef" ref="$.DAUNE"/>
+                  <desc>
+                     <text name="Schema Annotation">Normal duration/unit</text>
+                  </desc>
+                  <validate nullTest="error"/>
+                  <value>
+                     <text maxChars="3"/>
+                  </value>
+               </field>
+               <occur max="-1" min="0"/>
+               <field access="readOnly" h="6.35mm" name="ANZZL" w="31.71mm">
+                  <ui>
+                     <numericEdit>
+                        <border presence="hidden">
+                           <?templateDesigner StyleID aped0?></border>
+                        <margin/>
+                     </numericEdit>
+                  </ui>
+                  <font size="8pt" typeface="Arial"/>
+                  <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                  <para vAlign="middle"/>
+                  <value>
+                     <integer/>
+                  </value>
+                  <caption reserve="18.5764mm">
+                     <para vAlign="middle"/>
+                     <value>
+                        <text xliff:rid="D12A0E34-02C0-4A14-89BC-4B316473ABEF">No. of People:</text>
+                     </value>
+                  </caption>
+                  <bind match="dataRef" ref="$.ANZZL"/>
+                  <desc>
+                     <text name="Schema Annotation">Number of capacities required</text>
+                  </desc>
+                  <validate nullTest="error">
+                     <script contentType="application/x-javascript">this.isNull || (this.rawValue &gt;= 0 &amp;&amp; this.rawValue &lt;= 255);
+
+</script>
+                  </validate>
+               </field>
+               <?templateDesigner expand 1?></subform>
+            <border>
+               <edge presence="hidden"/>
+               <corner presence="hidden"/>
+               <edge presence="hidden"/>
+               <edge/>
+               <edge presence="hidden"/>
+               <corner presence="hidden"/>
+               <corner/>
+               <corner presence="hidden"/>
+            </border>
+            <subform layout="lr-tb" name="Subform2">
+               <bind match="none"/>
+               <subform layout="lr-tb" minH="6.35mm" name="EQUIPMENTPRT" w="90mm">
+                  <bind match="none"/>
+                  <subform layout="tb" name="NONE">
+                     <bind match="none"/>
+                     <draw h="5.2331mm" name="Text5" w="50mm">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="2C8A2D83-CD81-4C7C-9851-D1C9C3ECE211">Equipment PRT    None</text>
+                        </value>
+                        <font size="8pt" typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <?renderCache.bounds 136062 9164 0 0 2835 2835 0 0?>
+                        <?renderCache.textRun 21 Equipment PRT    None 0 2835 9733 0 0 0 "Arial" 0 0 8000 ISO-8859-1?></draw>
+                     <margin leftInset="0mm"/>
+                     <event activity="initialize" name="event__initialize">
+                        <script>$.presence = "visible"
+if ($.parent.DATA.all.length ne "0") then
+$.presence = "hidden"
+endif
+
+</script>
+                     </event>
+                     <?templateDesigner expand 1?></subform>
+                  <subform layout="tb" name="DATA">
+                     <bind match="dataRef" ref="$.PRT_ORDER.DATA[*]"/>
+                     <occur max="-1" min="0"/>
+                     <field access="readOnly" h="6.35mm" name="EQUNR" w="63.5mm">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font size="8pt" typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="22.683mm">
+                           <para vAlign="middle"/>
+                           <value>
+                              <text xliff:rid="8E0A3993-53ED-4CE8-A630-67E916B5C67B">Equipment PRT</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="$.EQUNR"/>
+                        <value>
+                           <text maxChars="18"/>
+                        </value>
+                        <desc>
+                           <text name="Schema Annotation">Equipment Number</text>
+                        </desc>
+                     </field>
+                     <?templateDesigner expand 1?></subform>
+                  <?templateDesigner expand 1?></subform>
+               <subform layout="lr-tb" minH="6.35mm" name="DOCUMENTPRT" w="90mm" x="98.425mm">
+                  <bind match="none"/>
+                  <subform layout="tb" name="NONE">
+                     <bind match="none"/>
+                     <draw h="5.2331mm" name="Text5" w="50mm">
+                        <ui>
+                           <textEdit/>
+                        </ui>
+                        <value>
+                           <text xliff:rid="3133A037-B6EB-4949-8330-BC54D14E70A3">Document PRT    None</text>
+                        </value>
+                        <font size="8pt" typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <?renderCache.bounds 136062 9164 0 0 2835 2835 0 0?>
+                        <?renderCache.textRun 20 Document PRT    None 0 2835 9733 0 0 0 "Arial" 0 0 8000 ISO-8859-1?></draw>
+                     <margin leftInset="0mm"/>
+                     <event activity="initialize" name="event__initialize">
+                        <script>$.presence = "visible"
+if ($.parent.DATA.all.length ne "0") then
+$.presence = "hidden"
+endif
+
+</script>
+                     </event>
+                     <?templateDesigner expand 1?></subform>
+                  <subform layout="tb" name="DATA">
+                     <bind match="dataRef" ref="$.PRT_ORDER1.DATA[*]"/>
+                     <field access="readOnly" h="6.35mm" minW="88.675mm" name="FHMNR">
+                        <ui>
+                           <textEdit>
+                              <border presence="hidden">
+                                 <?templateDesigner StyleID aped0?></border>
+                              <margin/>
+                           </textEdit>
+                        </ui>
+                        <font size="8pt" typeface="Arial"/>
+                        <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                        <para vAlign="middle"/>
+                        <caption reserve="22.683mm">
+                           <para vAlign="middle"/>
+                           <value>
+                              <text xliff:rid="86754239-4F81-4E74-81CE-BEE523E2547E">Document PRT</text>
+                           </value>
+                        </caption>
+                        <bind match="dataRef" ref="$.FHMNR"/>
+                        <value>
+                           <text maxChars="33"/>
+                        </value>
+                        <desc>
+                           <text name="Schema Annotation">Production resource/tool number</text>
+                        </desc>
+                     </field>
+                     <occur max="-1" min="0"/>
+                     <?templateDesigner expand 1?></subform>
+                  <?templateDesigner expand 1?></subform>
+               <?templateDesigner expand 1?></subform>
+            <margin leftInset="3mm"/>
+            <?templateDesigner expand 1?></subform>
+         <?templateDesigner expand 1?></subform>
+      <proto/>
+      <desc>
+         <text name="version">9.0.1.0.20091206.1.615263.583615</text>
+      </desc>
+      <?templateDesigner Hyphenation excludeInitialCap:1, excludeAllCaps:1, wordCharCnt:7, remainCharCnt:3, pushCharCnt:3?>
+      <?templateDesigner expand 1?>
+      <?renderCache.subset "Arial" 0 0 ISO-8859-1 4 148 37 000300060011001D002700280029002B003100320033003500360037003A004400450046004700480049004A004B004C004E004F005000510052005300540055005600570058005B005C #.:DEFHNOPRSTWabcdefghiklmnopqrstuxy?>
+      <?renderCache.subset "Arial" 1 0 ISO-8859-1 4 124 31 000300110012001D0024002500280029002F003200350036003D00440045004600470048004B004C004F005000510052005300540055005600570058005C ./:ABEFLORSZabcdehilmnopqrstuy?></subform>
+   <?templateDesigner DefaultPreviewDynamic 1?>
+   <?templateDesigner DefaultLanguage JavaScript?>
+   <?templateDesigner DefaultRunAt client?>
+   <?acrobat JavaScript strictScoping?>
+   <?PDFPrintOptions embedViewerPrefs 0?>
+   <?PDFPrintOptions embedPrintOnFormOpen 0?>
+   <?PDFPrintOptions scalingPrefs 0?>
+   <?PDFPrintOptions enforceScalingPrefs 0?>
+   <?PDFPrintOptions paperSource 0?>
+   <?PDFPrintOptions duplexMode 0?>
+   <?templateDesigner DefaultPreviewType interactive?>
+   <?templateDesigner DefaultPreviewPagination simplex?>
+   <?templateDesigner XDPPreviewFormat 20?>
+   <?templateDesigner Grid show:1, snap:1, units:17, color:ff8080, origin:(0,0), interval:(79375,79375), objsnap:0, guidesnap:0, pagecentersnap:-594610456?>
+   <?templateDesigner SaveTaggedPDF 1?>
+   <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+   <?templateDesigner FormTargetVersion 28?>
+   <?templateDesigner Zoom 101?>
+   <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?></template>
+<config xmlns="http://www.xfa.org/schema/xci/2.8/">
+   <agent name="designer">
+      <!--  [0..n]  -->
+      <destination>pdf</destination>
+      <pdf>
+         <!--  [0..n]  -->
+         <fontInfo/>
+      </pdf>
+      <common>
+         <template>
+            <base>http://chobisdv.gtna.gt.ds:8001/sap/bc/fp/form/layout/</base>
+         </template>
+      </common>
+   </agent>
+   <present>
+      <!--  [0..n]  -->
+      <pdf>
+         <!--  [0..n]  -->
+         <version>1.7</version>
+         <adobeExtensionLevel>3</adobeExtensionLevel>
+      </pdf>
+      <common>
+         <data>
+            <xsl>
+               <uri/>
+            </xsl>
+            <outputXSL>
+               <uri/>
+            </outputXSL>
+         </data>
+      </common>
+      <cache>
+         <macroCache/>
+      </cache>
+      <xdp>
+         <packets>*</packets>
+      </xdp>
+   </present>
+</config>
+<connectionSet xmlns="http://www.xfa.org/schema/xfa-connection-set/2.8/">
+   <xsdConnection dataDescription="data" name="ZPM_WO_OPSSUMMARY">
+      <uri/>
+      <rootElement>data</rootElement>
+   </xsdConnection>
+</connectionSet>
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+   <xfa:data xfa:dataNode="dataGroup"/>
+   <dd:dataDescription xmlns:dd="http://ns.adobe.com/data-description/" dd:name="data">
+      <data>
+         <ORDER_HEADER>
+            <AUFNR/>
+            <GLTRP/>
+            <GSTRP/>
+            <GLTRS/>
+            <GSTRS/>
+            <AUART/>
+            <KTEXT/>
+            <GLUZS/>
+            <GSUZS/>
+            <GLUZP/>
+            <GSUZP/>
+            <STTXT/>
+            <ASTTX/>
+            <EQUNR/>
+            <BAUTL/>
+            <ANLZU/>
+            <REVNR/>
+            <QMNUM/>
+            <VAPLZ/>
+            <TPLNR/>
+            <STORT/>
+            <MSGRP/>
+         </ORDER_HEADER>
+         <PRIORITY>
+            <PRIOK/>
+            <PRIOKX/>
+         </PRIORITY>
+         <NOTIFICATION_HEADER>
+            <QMTXT/>
+            <ERNAM/>
+         </NOTIFICATION_HEADER>
+         <OBJECT_CONNECTION>
+            <PLTXT/>
+            <EQTXT/>
+            <BAUTX/>
+         </OBJECT_CONNECTION>
+         <SFPSY>
+            <DATE/>
+            <USERNAME/>
+         </SFPSY>
+         <REVISIONS>
+            <REVNR/>
+            <REVTX/>
+         </REVISIONS>
+         <ORDER_HEAD_LONGTEXT dd:minOccur="0">
+            <DATA dd:maxOccur="-1">
+               <TDLINE/>
+            </DATA>
+         </ORDER_HEAD_LONGTEXT>
+         <OPERATIONS>
+            <ORDER_OPERATION dd:minOccur="0">
+               <DATA dd:maxOccur="-1">
+                  <VORNR/>
+                  <LTXA1/>
+                  <DAUNO/>
+                  <DAUNE/>
+                  <ARBEI/>
+                  <ARBEH/>
+                  <FSAVD/>
+                  <FSAVZ/>
+                  <SSAVD/>
+                  <SSAVZ/>
+                  <ARBPL/>
+                  <OPERATION_LONGTEXT dd:minOccur="0">
+                     <DATA dd:maxOccur="-1">
+                        <TDLINE/>
+                        <VORNR/>
+                     </DATA>
+                  </OPERATION_LONGTEXT>
+                  <SERVICES dd:minOccur="0">
+                     <DATA dd:dataNode="dataGroup" dd:maxOccur="-1"/>
+                  </SERVICES>
+                  <MATERIAL_INFO dd:minOccur="0">
+                     <DATA dd:dataNode="dataGroup" dd:maxOccur="-1"/>
+                  </MATERIAL_INFO>
+                  <PRT_ORDER dd:minOccur="0">
+                     <DATA dd:maxOccur="-1">
+                        <EQUNR/>
+                     </DATA>
+                  </PRT_ORDER>
+                  <WORK_CENTER dd:minOccur="0">
+                     <DATA dd:maxOccur="-1">
+                        <VORNR/>
+                        <ARBPL/>
+                        <KTEXT/>
+                     </DATA>
+                  </WORK_CENTER>
+                  <SPLITS dd:minOccur="0">
+                     <DATA dd:maxOccur="-1">
+                        <BEDID/>
+                        <BEDZL/>
+                        <ARBPL/>
+                        <DAUNO/>
+                        <DAUNE/>
+                        <ANZZL/>
+                     </DATA>
+                  </SPLITS>
+                  <PRT_ORDER1 dd:minOccur="0">
+                     <DATA dd:maxOccur="-1">
+                        <FHMNR/>
+                     </DATA>
+                  </PRT_ORDER1>
+               </DATA>
+            </ORDER_OPERATION>
+         </OPERATIONS>
+         <GRAPHIC/>
+         <ZONE_DESC/>
+         <LOC_DESC/>
+         <PRINTBY_DESC/>
+      </data>
+   </dd:dataDescription>
+</xfa:datasets>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.2.1-c043 52.398682, 2009/08/10-13:00:47        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+         <xmp:MetadataDate>2015-03-19T06:20:57Z</xmp:MetadataDate>
+         <xmp:CreatorTool>Adobe LiveCycle Designer ES 10.4</xmp:CreatorTool>
+      </rdf:Description>
+      <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+         <pdf:Producer>Adobe LiveCycle Designer ES 10.4</pdf:Producer>
+      </rdf:Description>
+      <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+         <xmpMM:DocumentID>uuid:05dae15b-428b-484e-8f1d-a2d612143382</xmpMM:DocumentID>
+      </rdf:Description>
+      <rdf:Description xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+         <desc:version rdf:parseType="Resource">
+            <rdf:value>9.0.1.0.20091206.1.615263.583615</rdf:value>
+            <desc:ref>/template/subform[1]</desc:ref>
+         </desc:version>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+   <locale desc="English (United States)" name="en_US">
+      <calendarSymbols name="gregorian">
+         <monthNames>
+            <month>January</month>
+            <month>February</month>
+            <month>March</month>
+            <month>April</month>
+            <month>May</month>
+            <month>June</month>
+            <month>July</month>
+            <month>August</month>
+            <month>September</month>
+            <month>October</month>
+            <month>November</month>
+            <month>December</month>
+         </monthNames>
+         <monthNames abbr="1">
+            <month>Jan</month>
+            <month>Feb</month>
+            <month>Mar</month>
+            <month>Apr</month>
+            <month>May</month>
+            <month>Jun</month>
+            <month>Jul</month>
+            <month>Aug</month>
+            <month>Sep</month>
+            <month>Oct</month>
+            <month>Nov</month>
+            <month>Dec</month>
+         </monthNames>
+         <dayNames>
+            <day>Sunday</day>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+         </dayNames>
+         <dayNames abbr="1">
+            <day>Sun</day>
+            <day>Mon</day>
+            <day>Tue</day>
+            <day>Wed</day>
+            <day>Thu</day>
+            <day>Fri</day>
+            <day>Sat</day>
+         </dayNames>
+         <meridiemNames>
+            <meridiem>AM</meridiem>
+            <meridiem>PM</meridiem>
+         </meridiemNames>
+         <eraNames>
+            <era>BC</era>
+            <era>AD</era>
+         </eraNames>
+      </calendarSymbols>
+      <datePatterns>
+         <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+         <datePattern name="long">MMMM D, YYYY</datePattern>
+         <datePattern name="med">MMM D, YYYY</datePattern>
+         <datePattern name="short">M/D/YY</datePattern>
+      </datePatterns>
+      <timePatterns>
+         <timePattern name="full">h:MM:SS A Z</timePattern>
+         <timePattern name="long">h:MM:SS A Z</timePattern>
+         <timePattern name="med">h:MM:SS A</timePattern>
+         <timePattern name="short">h:MM A</timePattern>
+      </timePatterns>
+      <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+      <numberPatterns>
+         <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+         <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+         <numberPattern name="percent">z,zz9%</numberPattern>
+      </numberPatterns>
+      <numberSymbols>
+         <numberSymbol name="decimal">.</numberSymbol>
+         <numberSymbol name="grouping">,</numberSymbol>
+         <numberSymbol name="percent">%</numberSymbol>
+         <numberSymbol name="minus">-</numberSymbol>
+         <numberSymbol name="zero">0</numberSymbol>
+      </numberSymbols>
+      <currencySymbols>
+         <currencySymbol name="symbol">$</currencySymbol>
+         <currencySymbol name="isoname">USD</currencySymbol>
+         <currencySymbol name="decimal">.</currencySymbol>
+      </currencySymbols>
+      <typefaces>
+         <typeface name="Myriad Pro"/>
+         <typeface name="Minion Pro"/>
+         <typeface name="Courier Std"/>
+         <typeface name="Adobe Pi Std"/>
+         <typeface name="Adobe Hebrew"/>
+         <typeface name="Adobe Arabic"/>
+         <typeface name="Adobe Thai"/>
+         <typeface name="Kozuka Gothic Pro-VI M"/>
+         <typeface name="Kozuka Mincho Pro-VI R"/>
+         <typeface name="Adobe Ming Std L"/>
+         <typeface name="Adobe Song Std L"/>
+         <typeface name="Adobe Myungjo Std M"/>
+      </typefaces>
+   </locale>
+</localeSet></xdp:xdp>

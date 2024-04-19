@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PM_MNPLAN_ORDER_UPDATE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Update Order from Maint. Plan</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>FREE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Free data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_CTR_CALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Counter based Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_CYCLE_VALUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Cycle Value</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_GSTRP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basic Start Date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_LRMDT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Last Inspection Completion Date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_MAN_CALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Manual Call Flag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GV_ZEIEH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Cylce Value Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_BASIC_FINISH_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Basic Finish Date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_COMPLIANCE_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Compliance Date</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_BASIC_FINISH_DATE</CMPNAME>
+     <SCONAME>RT_GLTRP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Basic finish date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_COMPLIANCE_DATE</CMPNAME>
+     <SCONAME>RT_COMPDATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Compliance Date</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

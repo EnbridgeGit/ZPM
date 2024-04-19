@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZPM_CL_FUNCLOC_UTIL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Functional Location Utility</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_HIERARCHY_FROM_H5</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get H3 from H5</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HANDLE_EQUI_LOC_CHANGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle installation / dismantling of equipment at a func loc</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_FLOC_CHAR_VALUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update functional locaiton char</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY_FROM_H5</CMPNAME>
+     <SCONAME>EV_TPLNR_H3</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Functional Location</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY_FROM_H5</CMPNAME>
+     <SCONAME>IV_HIERARCHY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>1, 2, 3, 4, 5 - Herarchy</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY_FROM_H5</CMPNAME>
+     <SCONAME>IV_TPLKZ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Functional location structure indicator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY_FROM_H5</CMPNAME>
+     <SCONAME>IV_TPLNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Functional Location</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HANDLE_EQUI_LOC_CHANGE</CMPNAME>
+     <SCONAME>IV_EQUNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Equipment Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HANDLE_EQUI_LOC_CHANGE</CMPNAME>
+     <SCONAME>IV_TPLKZ</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Functional location structure indicator</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HANDLE_EQUI_LOC_CHANGE</CMPNAME>
+     <SCONAME>IV_TPLNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Functional Location</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_FLOC_CHAR_VALUE</CMPNAME>
+     <SCONAME>IV_ATNAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Characteristic Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_FLOC_CHAR_VALUE</CMPNAME>
+     <SCONAME>IV_ATWRT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Characteristic Value</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_FLOC_CHAR_VALUE</CMPNAME>
+     <SCONAME>IV_CLASS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_FLOC_CHAR_VALUE</CMPNAME>
+     <SCONAME>IV_TPLNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Functional Location</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

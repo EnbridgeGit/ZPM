@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Get Station Details</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZPM03F01</SOBJ_NAME>
+    <SOBJ_NAME>LZPM03TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZPM03</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZPM_GET_STATION_DETAILS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Get Station Details</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IMP_DATE</PARAMETER>
+       <DEFAULT>SY-DATUM</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SY-DATUM</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>TBL_STATION_DETAILS</PARAMETER>
+       <DBSTRUCT>ZPMS_STATION_DETAIL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IMP_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Last Change date</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TBL_STATION_DETAILS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Station Detail</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

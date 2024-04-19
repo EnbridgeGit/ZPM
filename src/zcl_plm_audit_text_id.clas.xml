@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PLM_AUDIT_TEXT_ID</CLSNAME>
+    <LANGU>E</LANGU>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_AUDIT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Type in Project Planning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_AUDIT_ACTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Type in Project Planning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_AUDIT_PLAN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Type in Project Planning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_AUDIT_QUESTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Type in Project Planning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_DESCRIPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_FACTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_LOCATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NEGATIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_NOTE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_POSITIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_QUESTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Type in Project Planning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_QUESTION_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Type in Project Planning</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TDOBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Texts: Application Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CO_TRUE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=True, -=False, Space=Unknown)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_TDID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Text IDs with Corresponding Settings</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_TDID</CMPNAME>
+     <SCONAME>I_TDID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_TDID</CMPNAME>
+     <SCONAME>R_TDID_OK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Boolean Variable (X=True, -=False, Space=Unknown)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

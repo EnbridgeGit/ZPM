@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SHOPPAPER_INITIALIZE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Initialize Shop Paper data</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ZONE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Zone</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ZONE</CMPNAME>
+     <SCONAME>EX_ZONET</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Zone Description</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ZONE</CMPNAME>
+     <SCONAME>IM_TPLNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Functional Location</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

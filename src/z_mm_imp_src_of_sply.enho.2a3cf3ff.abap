@@ -1,0 +1,9 @@
+"Name: \FU:CO_BT_RESB_SET\SE:END\EI
+ENHANCEMENT 0 Z_MM_IMP_SRC_OF_SPLY.
+*
+
+  DATA: prtype TYPE eban-banfn.
+  CLEAR prtype.
+  EXPORT prtype = prtype to MEMORY id 'ZCL_IM_IW01_PREQ_BADI_MEMORY'.
+
+ENDENHANCEMENT.
